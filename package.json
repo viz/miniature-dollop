@@ -1,0 +1,23 @@
+{
+  "name": "miniature-dollop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viz/miniature-dollop.git"
+  },
+  "keywords": [],
+  "author": "Peter Whitfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viz/miniature-dollop/issues"
+  },
+  "homepage": "https://github.com/viz/miniature-dollop",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
+}

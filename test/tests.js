@@ -11,11 +11,12 @@ chai.use(chaiEnzyme())
 import { mount, render, shallow } from 'enzyme'
 
 import App from '../app/components/app'
+import Header from '../app/components/header'
 
 describe( '<App/>', () => {
-  it('displays the welcome message', () => {
-  const wrapper = render(<App/>)
+  it('includes the <Header/>', () => {
+  const wrapper = shallow(<App><p/></App>)
   
-  expect(wrapper.text()).to.contain('Welcome')
+  expect(wrapper).to.contain(<Header/>)
   })
 })
